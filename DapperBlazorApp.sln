@@ -5,6 +5,12 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperBlazorApp", "DapperBlazorApp\DapperBlazorApp.csproj", "{48FA2C1E-BD4E-4196-9F9F-0552011EDAA5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperBlazorApp.Application", "DapperBlazorApp.Application\DapperBlazorApp.Application.csproj", "{AA23D855-9315-4C79-B259-3007A86042B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperBlazorApp.Domain", "DapperBlazorApp.Domain\DapperBlazorApp.Domain.csproj", "{5EF15262-18DF-4B37-8FF6-A67ECBC8C892}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperBlazorApp.Infrastructure", "DapperBlazorApp.Infrastructure\DapperBlazorApp.Infrastructure.csproj", "{60D7C204-2A40-4ADD-BACD-75E71E1CF721}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{48FA2C1E-BD4E-4196-9F9F-0552011EDAA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48FA2C1E-BD4E-4196-9F9F-0552011EDAA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48FA2C1E-BD4E-4196-9F9F-0552011EDAA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA23D855-9315-4C79-B259-3007A86042B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA23D855-9315-4C79-B259-3007A86042B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA23D855-9315-4C79-B259-3007A86042B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA23D855-9315-4C79-B259-3007A86042B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EF15262-18DF-4B37-8FF6-A67ECBC8C892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF15262-18DF-4B37-8FF6-A67ECBC8C892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF15262-18DF-4B37-8FF6-A67ECBC8C892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF15262-18DF-4B37-8FF6-A67ECBC8C892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60D7C204-2A40-4ADD-BACD-75E71E1CF721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D7C204-2A40-4ADD-BACD-75E71E1CF721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D7C204-2A40-4ADD-BACD-75E71E1CF721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D7C204-2A40-4ADD-BACD-75E71E1CF721}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
